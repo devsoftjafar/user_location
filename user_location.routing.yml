@@ -1,0 +1,7 @@
+user_location.admin_settings:
+  path: '/admin/config/user_location'
+  defaults:
+    _form: '\Drupal\user_location\Form\MyConfigForm'
+    _title: 'user_location configuration screen'
+  requirements:
+    _permission: 'administer site configuration'

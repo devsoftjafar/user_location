@@ -1,0 +1,6 @@
+user_location.settings_form:
+  title: 'User Location Form'
+  description: 'Set user location information.'
+  parent: system.admin_config_system
+  menu_name: User Location form
+  route_name: user_location.admin_settings

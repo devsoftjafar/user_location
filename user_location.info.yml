@@ -1,0 +1,7 @@
+name: user_location
+description: user_location custom module, compatible with Drupal 8 and 9.
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Custom
+
