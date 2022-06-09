@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Hooks allow modules to alter and extend the behavior of Drupal core.
+ */
+
+/**
+ * Hooks for theme.
+ */
+function user_location_theme($existing, $type, $theme, $path) {
+  return [
+    'location_block' => [
+      'variables' => [
+        'attributes' => [],
+        'country' => [],
+        'city' => [],
+        'timezone' => [],
+        'dateTime' => [],
+      ],
+    ],
+  ];
+}
